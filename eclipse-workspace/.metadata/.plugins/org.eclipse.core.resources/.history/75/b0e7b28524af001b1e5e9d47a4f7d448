@@ -1,0 +1,20 @@
+package com.practicesamples;
+
+import java.util.Scanner;
+
+public class MortgageRepeat {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		System.out.println("Addition of two numbers");
+		System.out.println("Enter the 1st number: ");
+		int firstNumber = scanner.nextInt();
+		System.out.println("Enter the 2nd number: ");
+		int secondNumber = scanner.nextInt();
+		int sum = firstNumber + secondNumber;
+		System.out.println("Sum of two number is: " + sum);
+
+	}
+
+}
